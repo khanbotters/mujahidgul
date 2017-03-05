@@ -135,7 +135,8 @@ return ' '.$jam.':) 👱 👈😍👉Oo
  ♥ Choraya Hay Maine ♥
 ♥ Qismat Kay LakeerO Se ♥
 
-Bot By 🌹 '.$me.'  🌹
+🌹 Personal Bot hy Mera jaani  🌹
+
 Fan OF 🌹 Gangster Bot Team 🌹 
  
 
