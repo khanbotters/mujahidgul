@@ -57,15 +57,15 @@ array(
             "senang",
 ),
 array(
-"",
+" #B0T_P0W3R3D_BY <3 <me>",
 )),
 
 array(
 array(
-              "",
+              " #B0T_P0W3R3D_BY <3 <me> ",
 ),
 array(
-"",
+" #B0T_P0W3R3D_BY <3 <me> ",
 )),
 
 array(
@@ -125,7 +125,15 @@ $bulan[gmdate('n',time()+60*60
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return ' '.$jam.':) P3RSONAL B0T P0W3R3D BY :) ~~~~~~~~~~~~~~~~~~~~~~~~~~ :) GANGST3R B0T T3AM\ :) ~~~~~~~~~~~~~~~~~~~~~~~~~~ :) -=[ '.$botNomer.' ]=- :)'.$hr;
+return ' '.$jam.':) 👱 👈😍👉Oo..........................
+😘 A☀ young☔ person🐶 who🍊 will🌱 be😪 successful👃 is😍 never🙀 give💗 up🎍 before🐴 get👱 the☁ success😿 on🐩 his😄 hand
+
+➡➡➡Asif Hussain II⬅⬅⬅ 
+
+
+
+
+-=[➡➡➡MUJAHIDGUL.TK⬅⬅⬅]=- :)'.$hr;
 }
 
 function getPower($nm,$tm,$tk){
