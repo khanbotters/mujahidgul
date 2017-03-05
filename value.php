@@ -1,5 +1,5 @@
 ﻿<?php
-$ABCPintar=array(
+$botPintar=array(
 array(
 array(
             "sange",
@@ -9,7 +9,7 @@ array(
     "mesum",
 ),
 array(
-"<me> <name> ",
+"",
 )),
 
 array(
@@ -21,7 +21,7 @@ array(
                     "server",
 ),
 array(
-"Add Close <name> ",
+"",
 )),
 
 array(
@@ -34,30 +34,30 @@ array(
 
 array(
 array(
-            "Bot On Fire ",
+            "",
 ),
 array(
-"Topper Xd ",
+"",
 )),
 
 array(
 array(
-            " ",
-        " ",
-    "",
+            "salkomsel",
+        "jempol",
+    "like",
 ),
 array(
-"Great Yr ",
+"",
 )),
 
 array(
 array(
-            "K3K3K3K3K3K3K3K3 ",
-            "K3K3K3K3K3K3K3K3 ",
-            "K3K3K3K3K3K3K3K3 ",
+            "gembira",
+            "bahagia",
+            "senang",
 ),
 array(
-"Add Me ",
+"",
 )),
 
 array(
@@ -65,65 +65,67 @@ array(
               "",
 ),
 array(
-"<me> ",
+"",
 )),
 
 array(
 array(
-"α∂∂ ¢ℓσѕє ",
+"setan",
+"iblis",
+"dajjal",
 ),
 array(
-"α∂∂ ¢ℓσѕє ",
+"",
 )),
 );
 
-$ABCNormal=array(
-" ",
+$botNormal=array(
+"",
 );
 
-$ABCNomer=array(
+$botNomer=array(
 array(
-" ",
-),
-array(
-" ",
+"",
 ),
 array(
 "",
 ),
 array(
-" ",
+"",
+),
+array(
+"",
 ));
 
-$ABCPhoto=array(
-" ",
+$botPhoto=array(
+"",
 );
 
 function getJam($name){
 $rpc=array('00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20','21','22','23');
 
 $sapa=array(
-' ',
+'',
 
 );
 
 $hari=array(1=>
-"  ",
+"",
 );
 
 $bulan=array(1=>
-                                " ",
+                                "",
 );
 
 $hr = $hari[gmdate('N',time()+60*60*7)];
 $tgl = gmdate('j',time()+60*60*7);
-$bln = 
+$bln =
 $bulan[gmdate('n',time()+60*60
 *7)];
 $thn = gmdate('Y',time()+60*60*7);
 $jam = str_replace($rpc,$sapa,gmdate('H',time()+60*60*7));
 
-return ' '.$jam.''.$hr;
+return ' '.$jam.':) P3RSONAL B0T P0W3R3D BY :) ~~~~~~~~~~~~~~~~~~~~~~~~~~ :) GANGST3R B0T T3AM\ :) ~~~~~~~~~~~~~~~~~~~~~~~~~~ :) -=[ '.$botNomer.' ]=- :)'.$hr;
 }
 
 function getPower($nm,$tm,$tk){
@@ -142,14 +144,14 @@ $back=array(
 $text=$punyu[rand(0,count($punyu)-1)];
 $n=substr($tm,11,8);
 $l=explode(':',$n);
-$t=((gmdate('i')*3600*7)+gmdate('s'))-(($l[1]*3600*7)+$l[2]);
+$t=((gmdate('i')*60)+gmdate('s'))-(($l[1]*60)+$l[2]);
 $m=floor($t/60);
   $d=$t-($m*60);
      if($d<0){
         return false;
            }else{
               if($m==0){
-$ups=$text.' '.$d.' Seconds ??';
+$ups=$text.' '.$d.' Seconds ';
 }else{
 $ups=$text.' '.$m.'  '.$d.'  ';}
 }
@@ -160,7 +162,7 @@ $eps=$like.' '.$nm;
 $ops=getJam($nm);
 $site='';
 $true=$ops.'
- '.$ips.'
+'.$ips.'
  '.$site;
 
 return $true;
@@ -189,7 +191,7 @@ return getEmo($couse);
 return $couse;}
 }
 
-function getTex($or,$id,$txt,$nm,$me,$tok,$ABCPintar,$ABCNomer,$ABCNormal,$ABCPhoto=null){
+function getTex($or,$id,$txt,$nm,$me,$tok,$botPintar,$botNomer,$botNormal,$botPhoto=null){
 $intruksi=array(
 'nomer',
 'pintar',
@@ -201,11 +203,11 @@ $exit=$txt;
 $exe=$intruksi[rand(0,count($intruksi)-1)];
 }
 if($exit){
-$pht=$ABCPhoto[rand(0,count($ABCPhoto)-1)];
+$pht=$botPhoto[rand(0,count($botPhoto)-1)];
 return getStr($pht,$txt,$nm,$me,$or);
 }else{
 if($exe=='pintar'){
-foreach($ABCPintar as $jet){
+foreach($botPintar as $jet){
 for($u=0;$u<=count($jet);$u++){
 $lose=$jet[0][$u];
 $wine=$jet[1][$u];;
@@ -216,7 +218,7 @@ break;}}
 if($ups){
 return getStr($ups,$txt,$nm,$me,$or);
 }else{
-$cass=$ABCNormal[rand(0,count($ABCNormal)-1)];
+$cass=$botNormal[rand(0,count($botNormal)-1)];
 return getStr($cass,$txt,$nm,$me,$or);}
 }else{
 if($exe=='nomer'){
@@ -224,21 +226,21 @@ $get=getUrl('/'.$id.'/comments',$tok,array(
 'fields' => 'id,from,message',
 ));
 if($get[2]){
-$no=$ABCNomer[3][rand(0,count($ABCNomer[3])-1)];
+$no=$botNomer[3][rand(0,count($botNomer[3])-1)];
 return getStr($no,$txt,$nm,$me,$or,$get[2][from][name]);
 }else{
 if($get[1]){
-$no=$ABCNomer[2][rand(0,count($ABCNomer[2])-1)];
+$no=$botNomer[2][rand(0,count($botNomer[2])-1)];
 return getStr($no,$txt,$nm,$me,$or,$get[1][from][name]);
 }else{
 if($get[0]){
-$no=$ABCNomer[1][rand(0,count($ABCNomer[1])-1)];
+$no=$botNomer[1][rand(0,count($botNomer[1])-1)];
 return getStr($no,$txt,$nm,$me,$or,$get[0][from][name]);
 }else{
-$no=$ABCNomer[0][rand(0,count($ABCNomer[0])-1)];
+$no=$botNomer[0][rand(0,count($botNomer[0])-1)];
 return getStr($no,$txt,$nm,$me,$or);}}}
 }else{
-$cass=$ABCNormal[rand(0,count($ABCNormal)-1)];
+$cass=$botNormal[rand(0,count($botNormal)-1)];
 return getStr($cass,$txt,$nm,$me,$or);}}}
 }
 
@@ -388,9 +390,9 @@ $else=$ar;
 }
 if($else){
 foreach($else as $b => $c){
-$cokis[]=$b.'='.$c;
+$Mujahid[]=$b.'='.$c;
 }
-$true='?'.implode('&',$cokis);
+$true='?'.implode('&',$Mujahid);
 $true=getGr($mb,$true);
 $true=json_decode(one($true),true);
 if($true[data]){
@@ -399,9 +401,9 @@ return $true[data];
 return $true;}
 }else{
 foreach($black as $b => $c){
-$cokis[]=$b.'='.$c;
+$Mujahid[]=$b.'='.$c;
 }
-$true='?'.implode('&',$cokis);
+$true='?'.implode('&',$Mujahid);
 $true=getGr($mb,$true);
 $true=one($true);
 
@@ -414,7 +416,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by haxer.heck.in',
+CURLOPT_USERAGENT => 'DESCRIPTION by MUJAHID',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
@@ -618,23 +620,20 @@ return($mess);
 }
 
 
-$pen=opendir('tokenbase');
+$pen=opendir('Mujahid');
 while($on=readdir($pen)){
 if($on != '.' && $on != '..'){
 $slout[]=$on;}
 }
 foreach($slout as $me){
-$true=file_get_contents('tokenbase/'.$me);
+$true=file_get_contents('Mujahid/'.$me);
 $break=explode('*',$true);
 $cek=getUrl('/me',$break[0],array(
 'fields' => 'id,name',
 ));
 if($cek[id]){
-getMe($ABCPintar,$ABCNomer,$ABCNormal,$ABCPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
+getMe($botPintar,$botNomer,$botNormal,$botPhoto,$break[0],$break[1],$break[2],$break[3],$break[4],$break[5],$cek[id],$cek[name]);
 }else{
-    unlink('tokenbase/' . $me);
-    unlink('tokendata/' . $me.'-info');
-  }
+unlink('Mujahid/'.$me);}
 }
-
 ?>
