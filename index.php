@@ -7,7 +7,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>★ MUJAHID-AFRIDI ★</title>
+<title>🇵🇰
+ ★ MUJAHID-AFRIDI 🇵🇰
+ ★</title>
 <link rel="stylesheet" type="text/css" href="mujahid.css" media="all,handheld"/><link rel="shortcut icon" href="https;//www.facebook.com/favicon.ico">
 <head>
 <?php
