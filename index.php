@@ -315,7 +315,7 @@ echo'
 <font color="Yellow"></font>
 </div>
 <div class="post-content">
-<img src="https://graph.facebook.com/100014432130099/picture?type=large" alt="Profile" style="height:150px;width:150px;-moz-box-shadow:0px 0px 20px 0px Red;-webkit-box-shadow:0px 0px 20px 0px Red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px Red"><span>
+<img src="https://graph.facebook.com/100007399512115/picture?type=large" alt="Profile" style="height:150px;width:150px;-moz-box-shadow:0px 0px 20px 0px Red;-webkit-box-shadow:0px 0px 20px 0px Red;-o-box-shadow:0px 0px 20px 0px red;box-shadow:0px 0px 20px 0px Red"><span>
 <br>
 <span>
 <br>
